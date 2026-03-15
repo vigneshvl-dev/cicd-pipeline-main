@@ -1,6 +1,6 @@
 FROM tomcat:7
 
-MAINTAINER vijay_margam
+MAINTAINER vignesh
 
 WORKDIR /usr/local/tomcat
 ADD ./target/*.war /usr/local/tomcat/webapps/
